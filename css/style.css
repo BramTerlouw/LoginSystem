@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("Desktop_wallpaper2.jpg");
+    background-image: url("../img/Desktop_wallpaper2.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
     background-color: #01002a;
@@ -16,7 +16,7 @@ body {
 
 nav {
     width: 100vw;
-    height: 100px;
+    height: 5vw;
     background-color: #01002a;
 }
 
@@ -36,10 +36,11 @@ nav {
 }
 
 .transparant {
-    margin: 3.5vw 12.5vw 0 12.5vw;
+    margin: 3.5vw 0 0 10vw;
     background-image: linear-gradient(to bottom right, #01002a, #45076D);
     padding: 0 0 0 10px;
     border-radius: 2%;
+    height: 10vw;
 }
 
 #statement-one {
@@ -56,4 +57,37 @@ nav {
     color: white;
     font-size: 2vw;
     margin-bottom: 20px;
+}
+
+/*######################################################################*/
+/*######################################################################*/
+
+#form-login {
+    flex-basis: 30%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.form {
+    height: 300px;
+    background-image: linear-gradient(to bottom right, #01002a, #45076D);
+    border-radius: 2%;
+    margin: 3.5vw 0 0 10vw;
+    padding: 10px 0 0 20px;
+}
+
+input {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+label {
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+}
+
+#button {
+    margin-left: 48%;
 }
