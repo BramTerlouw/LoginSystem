@@ -1,0 +1,59 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Desktop_wallpaper2.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: #01002a;
+}
+
+/*######################################################################*/
+/*######################################################################*/
+
+nav {
+    width: 100vw;
+    height: 100px;
+    background-color: #01002a;
+}
+
+/*######################################################################*/
+/*######################################################################*/
+
+#container-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#article-home-trans {
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.transparant {
+    margin: 3.5vw 12.5vw 0 12.5vw;
+    background-image: linear-gradient(to bottom right, #01002a, #45076D);
+    padding: 0 0 0 10px;
+    border-radius: 2%;
+}
+
+#statement-one {
+    color: white;
+    font-size: 4vw;
+}
+
+#statement-two {
+    color: white;
+    font-size: 2vw;
+}
+
+#statement-three {
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 20px;
+}
